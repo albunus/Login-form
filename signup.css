@@ -1,0 +1,78 @@
+/*                                              signup page*/
+body{
+    background-color:#181313;
+    box-sizing: border-box;
+   background-image: url(./Assets/image2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    font-size: 20px;
+    
+    
+}
+
+
+#sign{
+    text-align: center;
+    color: white;
+}
+
+.container{
+
+   
+    margin-left: 460px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+input[type=text],input[type=password] {
+    width: 40%;
+    padding: 15px;
+    border: none;
+    background: white;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.Signup{
+    background-color: red;
+    color: white;
+    padding: 16px 20px;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.9;
+    border: none;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+.Signup:hover {
+    opacity: 1;
+    color: pink;
+}
+
+
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: lightgrey;
+    outline: none;
+}
+
+.Signup a{
+    text-decoration: none;
+}
+
+
+a{
+    color:lightgreen;
+    font-weight: 900;
+}
+
+#param{
+    margin-left: 20px;
+    color: white;
+}
